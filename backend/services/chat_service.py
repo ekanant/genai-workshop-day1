@@ -36,4 +36,6 @@ class ChatService:
 
         # query query engine
 
+        response = query_engine.query(last_message.content)
+
         return response
